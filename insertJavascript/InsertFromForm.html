@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RemplirTableau</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+
+
+      <div class="f1" >
+        <h1>Let's Go Fill The Table !§!</h1>
+        <div>
+          <span id="spn_Nom"><img src="https://img.icons8.com/nolan/64/name.png" ></span>
+          <input type="text" placeholder="Nom* :"  id="Nom" required>
+        </div>
+        <div>
+            <span id="spn_Prenom"><img src="https://img.icons8.com/nolan/64/employee-card.png"></span>
+            <input type="text" placeholder="Prenom* :" id="Prenom" required>
+        </div>
+        <div>
+            <span id="spn_adresse"><img src="https://img.icons8.com/nolan/64/home.png"></span>
+            <input type="text" placeholder="Adresse* :" id="Adresse" required>
+        </div>
+        <div>
+            <span id="spn_phone"><img src="https://img.icons8.com/nolan/64/phone.png" ></span>
+            <input type="tel" placeholder="Phone* :" id="Phone" required>
+        </div>
+        <div id="company_div">
+            <span id="spn_Adresse_em"><img src="https://img.icons8.com/nolan/64/google-plus.png" ></span>
+            <input type="email" placeholder="Adresse Email* :" id="Adresse_em" required>
+        </div>
+
+        <div>
+          <p id="eror"></p>
+        </div>
+        <div id="send_div">
+            <button id="send" onclick="addRow()"><img src="https://img.icons8.com/nolan/64/checkmark.png"></button>
+        </div>
+      </div>
+
+      <table id="table">
+        <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Adresse</th>
+            <th>Phone</th>
+            <th>Adresse_Email</th>
+        </tr>
+      </table>
+      <div style="text-align:center;">Made By Mohammed Amine Bettaoui</div>
+      <script type="text/javascript" src="insert.js"></script>
+  </body>
+  </html>

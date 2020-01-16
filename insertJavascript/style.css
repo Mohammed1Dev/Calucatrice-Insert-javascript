@@ -1,0 +1,200 @@
+body{
+  background-color: antiquewhite;
+}
+/*start form*/
+.f1{
+    width: 40%;
+    margin: 50px auto;
+    font-family: 'Antone';
+}
+.f1 h1{
+  font-weight: bold;
+  font-family: 'Oswald-Medium';
+  text-align: center;
+}
+.f1 div span , input{
+  box-sizing: border-box;
+}
+
+/*space between divs*/
+.f1 div {
+  display: flex;
+  margin: 15px;
+
+}
+.f1 #Nom {
+  padding: 20px 10px;
+  float: left;
+  width: 90%;
+  background: #fff;
+  border: none;
+  font-size: 15px;
+  font-family: 'Oswald-Medium';
+}
+
+/* Style the span icons*/
+.f1 #spn_Nom{
+  float: right;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 8px;
+  color: #999;
+  width: 15%;
+}
+.f1 #Prenom {
+  padding: 20px 10px;
+  float: left;
+  width: 90%;
+  background: #fff;
+  border: none;
+  font-size: 10px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_Prenom {
+  float: right;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 10px;
+  color: #999;
+  width: 15%;
+}
+.f1 #Adresse {
+  padding: 20px 10px;
+  float: left;
+  width: 90%;
+  background: #fff;
+  border: none;
+  font-size: 10px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_adresse {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 10px;
+  color: #999;
+  width: 15%;
+  text-align: right;
+}
+.f1 #Phone {
+  padding: 20px 10px;
+  float: left;
+  width: 90%;
+  background: #fff;
+  border: none;
+  font-size: 10px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_phone {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 10px;
+  color: #999;
+  width: 15%;
+  text-align: right;
+}
+.f1 #Adresse_em {
+  padding: 20px 10px;
+  float: left;
+  width: 90%;
+  background: #fff;
+  border: none;
+  font-size: 10px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_Adresse_em {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 10px;
+  color: #999;
+  width: 15%;
+  text-align: right;
+}
+.f1 #message{
+  padding: 20px 70px;
+  width: 100%;
+  background: #fff;
+  border: none;
+  font-family: 'Oswald-Medium';
+  font-weight: bold;
+  resize: none;
+}
+/*eror div*/
+.f1 #eror{
+  width: 100%;
+  background: #fff;
+  border: none;
+  font-size: 20px;
+  font-family: 'Oswald-Medium';
+  font-weight: bold;
+  resize: none;
+  text-align: center;
+  background-color: #dc3545;
+  color: black;
+  text-transform: capitalize;
+}
+/*end eror div*/
+/*div send*/
+#send_div{
+  display: flex;
+  justify-content: center;
+}
+.f1 #send {
+  padding: 20px 5px;
+  float: left;
+  background: #fff;
+  font-size: 25px;
+  font-family: 'Oswald-Medium';
+  width: 30%;
+  color: #999;
+  letter-spacing: 3px;
+}
+/* Clear floats */
+.f1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*style Table*/
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 50%;
+}
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+background-color: #D0E3FA;
+
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+caption {
+font-family: sans-serif;
+}

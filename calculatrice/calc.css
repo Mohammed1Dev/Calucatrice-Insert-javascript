@@ -1,0 +1,41 @@
+.div_calc{
+  width: 50%;
+  height: 300px;
+  background-color: #999;
+  margin: auto auto;
+}
+.div_calc form .div_input{
+  display: flex;
+  justify-content: center;
+}
+.div_calc form input[type=text]{
+  width: 50%;
+  background-color: #489;
+  padding: 10px 15px;
+  font-size: 25px;
+  margin: 10px;
+}
+.div_calc form .div_operator{
+  justify-content: center;
+  display: flex;
+}
+.div_calc form .div_operator button{
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+.div_calc form .div_res{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.div_calc form .div_res span{
+  width: 50%;
+  background-color: #489;
+  padding: 10px 15px;
+  font-size: 25px;
+  margin: 10px;
+  color: #fdd;
+  text-align: center;
+  border-radius: 20px;
+}
